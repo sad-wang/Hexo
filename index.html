@@ -48,8 +48,16 @@ JavaScript 是一种动态类型语言，变量的类型没有限制，变量可
 
 
 变量提升12console.log(a)var a = 1
-当在控制台运行以上代码的时候，即使 ...</div><a class="more" href="/2018/10/05/JavaScript——入门篇/#more" style="margin-top: 14px">Read more</a><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2018/10/04/布局解决方案（一）/">关于 CSS 布局——Flex 布局解决方案（一）</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-04</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/CSS/">CSS</a></span><div class="content">[上一篇 ]https://leown-wang.github.io/2018/10/03/%E5%B8%83%E5%B1%80%E2%80%94%E2%80%94%E4%BC%A0%E7%BB%9F%E7%9A%84%E5%B8%83%E5%B1%80%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/)介绍了传统的布局解决方案，基于[ 盒模型](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)，依靠 display 属性 +  position 属性 + float 属性 + z-index 属性；而它对于特殊的布局结构不太友好，比如，垂直居中 就不易实现。
-关于 Flex 布局Flex(Flexible Box)，即弹 ...</div><a class="more" href="/2018/10/04/布局解决方案（一）/#more" style="margin-top: 14px">Read more</a><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2018/10/03/布局——传统的布局解决方案/">关于 CSS 布局——传统的布局解决方案</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-03</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/CSS/">CSS</a></span><div class="content">传统的布局解决方案
+当在控制台运行以上代码的时候，即使 ...</div><a class="more" href="/2018/10/05/JavaScript——入门篇/#more" style="margin-top: 14px">Read more</a><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2018/10/04/布局解决方案（一）/">关于 CSS 布局——Flex 布局解决方案（一）</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-04</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/CSS/">CSS</a></span><div class="content">上一篇 介绍了传统的布局解决方案，基于 盒模型，依靠 display 属性 +  position 属性 + float 属性 + z-index 属性；而它对于特殊的布局结构不太友好，比如，垂直居中 就不易实现。
+关于 Flex 布局Flex(Flexible Box)，即弹性布局,Flexbox 的子元素之间提供了强大的空间分布和对齐能力，为各种布局结构提供了合理的解决方案。当容器设为Flex布局以后，子元素的float 、clear 和vertical-align 属性将失效。
+基本概念Flex 布局是一种一维的布局模型，能处理一个维度上的元素布局。
+
+
+FlexBox 中的两根轴当使用 Flex 布局时，容器中有两根轴线：主轴和与之垂直的轴。
+FlexBox 中的起始和终止线起始线终止线规定了两根轴线在布局中的方向。FlexBox 容器属性
+
+flex-direction
+flex ...</div><a class="more" href="/2018/10/04/布局解决方案（一）/#more" style="margin-top: 14px">Read more</a><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2018/10/03/布局——传统的布局解决方案/">关于 CSS 布局——传统的布局解决方案</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-10-03</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/CSS/">CSS</a></span><div class="content">传统的布局解决方案
  display 属性 +  position 属性 + float 属性 + z-index 属性
 
 关于 display在配置页面布局中 display 是非常重要的一个属性，它的值表示了元素在页面中的表现形式；在HTML中默认的display属性取决于HTML规范所描述的行为或浏览器/用户的默认样式表，大部分元素的display属性，预设值通常是 block或inline其中一个。关于 display 的值，这里有详细的列表。
