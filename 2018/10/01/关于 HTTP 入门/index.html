@@ -17,10 +17,14 @@
 <li><em>WWW (World Wide Web)</em></li>
 </ul>
 <blockquote>
-<p><strong>万维网</strong> 是一个由许多互相链接的超文本组成的系统，通过互联网访问<br>万维网并不等同互联网，万维网只是互联网所能提供的服务其中之一.</p>
+<p><strong>万维网</strong> 是一个由许多互相链接的超文本组成的系统，通过互联网访问</p>
+</blockquote>
+<blockquote>
+<p>万维网并不等同互联网，万维网只是互联网所能提供的服务其中之一.</p>
 </blockquote>
 <ul>
-<li><em>URI (Uniform Resource Identifier)</em></li>
+<li><p><em>URI (Uniform Resource Identifier)</em></p>
+</li>
 <li><p><em>URN (Uniform Resource Name)</em></p>
 <blockquote>
 <p>ISBN: 9787115275790 就是一个 URN，通过 URN 你可以确定一个「唯一的」资源，ISBN: 9787115275790 对应的资源的是《JavaScript 高级程序设计（第三版）》这本书。你去是介绍任何一个图书馆、书店，他们都知道是这本书。</p>
@@ -31,7 +35,11 @@
 </ul>
 <blockquote>
 <p><img src="https://upload-images.jianshu.io/upload_images/14234390-5561434cd2cb6a47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="URL 的常见组成"></p>
+</blockquote>
+<blockquote>
 <p>URL 的常见组成</p>
+</blockquote>
+<blockquote>
 <p><a href="https://www.baidu.com/s?wd=hello&amp;rsv_spt=1#5" title="null" target="_blank" rel="noopener">https://www.baidu.com/s?wd=hello&amp;rsv_spt=1#5</a> 就是一个 URL，通过 URL 你可以确定一个「唯一的」地址（网址）。</p>
 </blockquote>
 <ul>
@@ -40,6 +48,10 @@
 <blockquote>
 <ul>
 <li>输入域名</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
 <li>输出 IP</li>
 </ul>
 </blockquote>
@@ -63,7 +75,28 @@
 <li>请求方法(动作)</li>
 </ul>
 <blockquote>
-<p><strong>GET</strong>：向指定的资源发出“显示”请求。使用 GET 方法应该只用在读取数据，而不应当被用于产生“副作用”的操作中。<br><strong>POST</strong>：向指定资源提交数据，请求服务器进行处理（例如提交表单或者上传文件）。<br><strong>HEAD</strong>：与 GET 方法一样，都是向服务器发出指定资源的请求。只不过服务器将不传回资源的本文部分。它的好处在于，使用这个方法可以在不必传输全部内容的情况下，就可以获取其中“关于该资源的信息”（元信息或称元数据）。<br><strong>PUT</strong>：向指定资源位置上传其最新内容。<br><strong>DELETE</strong>：请求服务器删除 Request-URI 所标识的资源。<br><strong>TRACE</strong>：回显服务器收到的请求，主要用于测试或诊断。<br><strong>OPTIONS</strong>：这个方法可使服务器传回该资源所支持的所有 HTTP 请求方法。用’*’来代替资源名称，向Web服务器发送 OPTIONS 请求，可以测试服务器功能是否正常运作。<br><strong>CONNECT</strong>：HTTP/1.1 协议中预留给能够将连接改为管道方式的代理服务器。通常用于 SSL 加密服务器的链接（经由非加密的 HTTP 代理服务器）</p>
+<p><strong>GET</strong>：向指定的资源发出“显示”请求。使用 GET 方法应该只用在读取数据，而不应当被用于产生“副作用”的操作中。</p>
+</blockquote>
+<blockquote>
+<p><strong>POST</strong>：向指定资源提交数据，请求服务器进行处理（例如提交表单或者上传文件）。</p>
+</blockquote>
+<blockquote>
+<p><strong>HEAD</strong>：与 GET 方法一样，都是向服务器发出指定资源的请求。只不过服务器将不传回资源的本文部分。它的好处在于，使用这个方法可以在不必传输全部内容的情况下，就可以获取其中“关于该资源的信息”（元信息或称元数据）。</p>
+</blockquote>
+<blockquote>
+<p><strong>PUT</strong>：向指定资源位置上传其最新内容。</p>
+</blockquote>
+<blockquote>
+<p><strong>DELETE</strong>：请求服务器删除 Request-URI 所标识的资源。</p>
+</blockquote>
+<blockquote>
+<p><strong>TRACE</strong>：回显服务器收到的请求，主要用于测试或诊断。</p>
+</blockquote>
+<blockquote>
+<p><strong>OPTIONS</strong>：这个方法可使服务器传回该资源所支持的所有 HTTP 请求方法。用’*’来代替资源名称，向Web服务器发送 OPTIONS 请求，可以测试服务器功能是否正常运作。</p>
+</blockquote>
+<blockquote>
+<p><strong>CONNECT</strong>：HTTP/1.1 协议中预留给能够将连接改为管道方式的代理服务器。通常用于 SSL 加密服务器的链接（经由非加密的 HTTP 代理服务器）</p>
 </blockquote>
 <ul>
 <li>请求格式</li>
@@ -104,8 +137,10 @@
 <h4 id="用-Chrome-开发者工具查看-HTTP-的请求和响应"><a href="#用-Chrome-开发者工具查看-HTTP-的请求和响应" class="headerlink" title="用 Chrome 开发者工具查看 HTTP 的请求和响应"></a>用 Chrome 开发者工具查看 HTTP 的请求和响应</h4><p><img src="https://upload-images.jianshu.io/upload_images/14234390-e8a8b31fb69de2de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <p>其他开发者工具大同小异</p>
 <h4 id="用-curl-命令查看-HTTP-的请求和响应"><a href="#用-curl-命令查看-HTTP-的请求和响应" class="headerlink" title="用 $curl 命令查看 HTTP 的请求和响应"></a>用 <code>$curl</code> 命令查看 HTTP 的请求和响应</h4><ul>
-<li>command URL，故命令名为 <code>curl</code></li>
-<li><a href="http://curl.haxx.se/" target="_blank" rel="noopener"><code>curl</code></a> 是一种命令行工具，作用是发出网络请求，然后得到和提取数据，显示”标准输出”上面；</li>
+<li><p>command URL，故命令名为 <code>curl</code></p>
+</li>
+<li><p><a href="http://curl.haxx.se/" target="_blank" rel="noopener"><code>curl</code></a> 是一种命令行工具，作用是发出网络请求，然后得到和提取数据，显示”标准输出”上面；</p>
+</li>
 <li><p><code>$ curl xxx</code> 查看网页源代码<br><code>$ curl www.sina.com //此网页代码较短</code></p>
 <p><img src="https://upload-images.jianshu.io/upload_images/14234390-f0c754a9b8940528.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 </li>
@@ -115,16 +150,16 @@
 <li><p><code>curl -L</code> 的自动跳转<br><code>$ curl -L www.sina.com</code><br>有些网页是自动跳转的，键入上面的命令，则会自动跳转到 <code>www.sina.com.cn</code> ；</p>
 </li>
 <li><p><code>$ curl -i</code> <code>$ curl -I</code> ‘’ 显示头信息<br><code>$ curl -i www.sina.com</code><br>键入以上命令可连同网页代码一起显示 HTTP 响应(Response)的头信息;</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/14234390-92b93564585b80e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 </li>
 </ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/14234390-92b93564585b80e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <p><code>$ curl -I www.sina.com</code><br>键入以上命令只显示 HTTP 响应(Response)的头信息;</p>
 <p><img src="https://upload-images.jianshu.io/upload_images/14234390-db9465420784b9f7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <ul>
-<li><p><code>$ curl -v</code> 显示通信过程<br><code>$ curl -v www.sina.com</code><br>键入以上命令可显示 HTTP 整个通信过程;</p>
+<li><code>$ curl -v</code> 显示通信过程<br><code>$ curl -v www.sina.com</code><br>键入以上命令可显示 HTTP 整个通信过程;</li>
+</ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/14234390-ec9a4a530e80900f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-</li>
-<li><p><a href="http://www.ruanyifeng.com/blog/2011/09/curl.html" target="_blank" rel="noopener">关于 <code>curl</code> 的更多用途</a></p>
-</li>
+<ul>
+<li><a href="http://www.ruanyifeng.com/blog/2011/09/curl.html" target="_blank" rel="noopener">关于 <code>curl</code> 的更多用途</a></li>
 </ul>
 </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">王方企</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://yoursite.com/2018/10/01/关于 HTTP 入门/">http://yoursite.com/2018/10/01/关于 HTTP 入门/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/HTTP/">HTTP</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2018/10/02/关于 HTML 标签/"><i class="fa fa-chevron-left">  </i><span>关于 HTML 标签</span></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2017 - 2018 By 王方企</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.5.6"></script><script src="/js/fancybox.js?version=1.5.6"></script><script src="/js/sidebar.js?version=1.5.6"></script><script src="/js/copy.js?version=1.5.6"></script><script src="/js/fireworks.js?version=1.5.6"></script><script src="/js/transition.js?version=1.5.6"></script><script src="/js/scroll.js?version=1.5.6"></script><script src="/js/head.js?version=1.5.6"></script></body></html>
