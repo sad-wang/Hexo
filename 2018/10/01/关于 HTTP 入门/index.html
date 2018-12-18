@@ -41,13 +41,12 @@
 <li><p>请求方法(动作)<br><strong>GET</strong>：向指定的资源发出“显示”请求。使用 GET 方法应该只用在读取数据，而不应当被用于产生“副作用”的操作中。<br><strong>POST</strong>：向指定资源提交数据，请求服务器进行处理（例如提交表单或者上传文件）。<br><strong>HEAD</strong>：与 GET 方法一样，都是向服务器发出指定资源的请求。只不过服务器将不传回资源的本文部分。它的好处在于，使用这个方法可以在不必传输全部内容的情况下，就可以获取其中“关于该资源的信息”（元信息或称元数据）。<br><strong>PUT</strong>：向指定资源位置上传其最新内容。<br><strong>DELETE</strong>：请求服务器删除 Request-URI 所标识的资源。<br><strong>TRACE</strong>：回显服务器收到的请求，主要用于测试或诊断。<br><strong>OPTIONS</strong>：这个方法可使服务器传回该资源所支持的所有 HTTP 请求方法。用’*’来代替资源名称，向Web服务器发送 OPTIONS 请求，可以测试服务器功能是否正常运作。<br><strong>CONNECT</strong>：HTTP/1.1 协议中预留给能够将连接改为管道方式的代理服务器。通常用于 SSL 加密服务器的链接（经由非加密的 HTTP 代理服务器）</p>
 </li>
 <li><p>请求格式</p>
-</li>
-</ul>
 <blockquote>
 <p>1 <code>动词 路径 协议/版本</code><br>2 <code>Key1: value1</code><br>2 <code>Key2: value2</code><br>2 <code>Key3: value3</code><br>2 <code>Content-Type: application/x-www-form-urlencoded</code><br>2 <code>Host: www.sina.com</code><br>2 <code>User-Agent: curl/7.54.0</code><br>3 <code>空行</code><br>4 <code>要上传的数据</code></p>
 </blockquote>
-<ul>
-<li>注意：</li>
+</li>
+<li><p>注意：</p>
+</li>
 </ul>
 <ol>
 <li>请求格式包括四部分，至少包括三部分;</li>
